@@ -1,0 +1,164 @@
+/* **************************************
+************GENERALIZE CSS************
+************************************** */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing : border-box;
+}
+section{
+    width: 85%;
+    margin: auto;
+}
+
+/* **************************************
+************NAV SECTION CSS**************
+************************************** */
+nav{
+    display: flex;
+    justify-content: space-between;
+    min-height: 8vh;
+    margin-top: 20px;
+    /* background-color: red; */
+}
+.logo{
+    margin-top: 15px;
+}
+.nav-links{
+    display: flex;
+    width: 55%;
+    /* background-color: green; */
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 17px;
+}
+.nav-links a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #A9A9A9;
+}
+.nav-links li{
+    list-style-type: none;
+    
+}
+.nav-links li a:hover{
+    color: rgb(2, 90, 39);
+    text-decoration: underline; 
+}
+
+
+/* **************************************
+************HERO IMAGE SECTION CSS*******
+************************************** */
+
+.hero-image{
+   width: 100%;
+   height : 400px;
+}
+.hero-section{
+    margin-top: 20px;
+}
+
+
+/* **************************************
+************WRITING SECTION CSS**********
+************************************** */
+h3 ,p ,h1{
+    margin: 0;
+    padding: 0;
+}
+
+.writing-container{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.writing-container h3{
+    text-transform: uppercase;
+    color: #A9A9A9;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.writing-container h1{
+    margin-top: 8px;
+    font-weight: 400;
+    color: gray;
+    font-weight: bold;
+}
+.writing-container p{
+    margin-top: 8px;
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+
+}
+.writing-container h3{
+    margin-top: 10px;
+}
+
+/* **************************************
+************PORTFOLIO SECTION CSS********
+************************************** */
+
+.portfolio-container{
+    width: 90%;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+.portfolio-container div{
+    width: 47%; 
+}
+.portfolio-container div img{
+    width: 100%;
+}
+.portfolio-container div h3{
+    margin-top: 10px;
+    color: grey;
+}
+.portfolio-container div h1{
+    margin-top: 10px;
+    color: grey;terms and conditions privacy
+    letter-spacing: 4px;
+}
+.portfolio-container div p{
+    margin-top: 10px;
+    color: grey;
+    font-size: 15px;
+}
+
+/* **************************************
+************FOOTER SECTION CSS***********
+************************************** */
+
+.footer-section{
+    width: 100% !important;
+    background-color : #D8D8D8;
+    margin-top: 60px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    padding-top: 30px;
+}
+.footer-container .logos{
+    display: flex;
+    width: 12%;
+    justify-content: space-between;
+    margin-left: 300px;
+}
+
+.footer-container .logos{
+   color: blue;
+}
+
+.footer-container .footer-text{
+    margin-right: 50px;
+}
